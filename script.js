@@ -12,8 +12,9 @@ btnClose.forEach(function (btn) {
     // btn.parentElement.style.display = "none"; //dari button close[i](btn) ambil parentnya dan set style displaynya jado = none
     // atau
     ec.target.parentElement.style.display = "none"; //karena dari variabel ec nantinya bisa mendapatkan informasi macam2
+    ec.preventDefault();
   });
 });
 
-const nama = document.querySelector(".nama");
-console.log(nama.nextElementSibling);
+// const nama = document.querySelector(".nama");
+// console.log(nama.nextElementSibling);

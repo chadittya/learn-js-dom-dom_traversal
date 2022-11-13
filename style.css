@@ -33,6 +33,10 @@ body {
   object-fit: cover;
 }
 
+.card a {
+  text-decoration: none;
+}
+
 .card .nama,
 .card .telp {
   display: block;
